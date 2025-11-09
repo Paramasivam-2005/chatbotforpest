@@ -1,0 +1,5 @@
+streamlit
+pillow
+numpy
+pyttsx3
+gTTS
