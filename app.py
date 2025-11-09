@@ -27,7 +27,7 @@ with tab1:
     col1, col2 = st.columns([1,2])
     with col1:
         if st.button('Load demo image'):
-            demo_path = os.path.join(os.path.dirname(__file__), '..', 'data', 'test', 'sample.jpg')
+            demo_path = os.path.join(os.path.dirname(__file__), 'data', 'test', 'sample.jpg')
             uploaded = open(demo_path, 'rb')
     if uploaded is not None:
         st.image(uploaded, caption=translate('Uploaded image', lang), use_column_width=True)
